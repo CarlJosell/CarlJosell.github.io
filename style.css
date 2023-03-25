@@ -30,7 +30,7 @@ body
 {
     position: relative;
     background-color: #003147;
-    padding: 40px;
+    padding: 40px; /* 40 px, Om icons ska vara på samma rad -> 18px */
 }
 .profileText
 {
