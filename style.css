@@ -111,7 +111,7 @@ body
 }
 
 .programLanguage{
-    display: none;
+    display: none !important;
 }
 .contactInfo.education li
 {
@@ -270,7 +270,7 @@ p
     width: 20px;
 }
 .refPrint{
-    display: none;
+    display: none !important;
 }
 @media (max-width: 900px)
 {
