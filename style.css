@@ -109,6 +109,10 @@ body
     color: white;
     font-weight: 300;
 }
+
+.programLanguage{
+    display: none;
+}
 .contactInfo.education li
 {
     margin-bottom: 15px;
@@ -147,6 +151,19 @@ body
     background-color: darkorange;
 }
 
+.resumeButtons{
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 40px;
+    
+    
+}
+.resumeButtons .point{
+    cursor: pointer;
+}
 .container .right_Side
 {
     position: relative;
@@ -233,6 +250,7 @@ p
     height: 100%;
     background: darkorange;
 }
+
 .intrest ul
 {
     display: grid;
@@ -242,7 +260,7 @@ p
 {
     list-style: none;
     color: rgb(48, 41, 97);
-    font-weight: 500;
+    font-weight: normal;
     margin: 10px 0;
 }
 .intrest ul li .fa
@@ -250,6 +268,9 @@ p
     color: dodgerblue;
     font-size: 18px;
     width: 20px;
+}
+.refPrint{
+    display: none;
 }
 @media (max-width: 900px)
 {

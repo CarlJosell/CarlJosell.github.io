@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    background: none;
+    color: black;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    background: white;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    box-shadow:none;
+}
+p{
+    color:black;
+}
+.profileText h2
+{
+    color: black;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: uppercase;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+.title
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.container .left_Side .printGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);/* I I */
+}
+.container .right_Side .printGridRef{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.programLanguage{
+    display: inline;
+}
+.about
+{
+    margin-bottom: 20px;
+}
+
+.skills{
+    display: none;
+}
+.refPrint{
+    display: inline;
+}
+
+.intrest ul
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.intrest ul li
+{
+    list-style: none;
+    color: rgb(0, 0, 0);
+    margin: 0px 0;
+}
+
+.ref{
+    display: none;
+}
+
+.resumeButtons{
+    display: none;
+}
