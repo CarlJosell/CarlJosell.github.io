@@ -283,6 +283,9 @@ p
     {
         grid-template-columns: repeat(2,1fr);
     }
+    .resumeButtons{
+        display: none !important;
+    }
 }
 
 @media (max-width: 600px)
