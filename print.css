@@ -30,35 +30,42 @@ p{
 }
 .title
 {
+    font-size: 0.9em;
     color: white;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+}
+.title2 {
+    margin: 0px; 
+    padding: 0px;
 }
 .container .left_Side .printGrid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);/* I I */
 }
-.container .right_Side .printGridRef{
+.container .right_Side .printGridRef {
+    font-size: 0.9em;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 20px;
+    gap: 10px;
 }
 
 .programLanguage{
-    display: inline;
+    display: inline !important;
 }
 .about
 {
-    margin-bottom: 20px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
 }
 
 .skills{
     display: none;
 }
 .refPrint{
-    display: inline;
+    display: inline !important;
 }
 
 .intrest ul

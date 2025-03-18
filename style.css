@@ -272,6 +272,7 @@ p
 .refPrint{
     display: none !important;
 }
+
 @media (max-width: 900px)
 {
     .container
